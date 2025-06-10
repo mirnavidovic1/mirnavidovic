@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Mirna Vidović - moj html dokument</title>
+		<style>
+		html, body {
+	  min-height: 100vh;
+      background-image: 
+ linear-gradient(to bottom, rgba(0, 0, 0, 0) 40%, black 100%),
+    url('slike/slika01.jpg');
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center;
+	  background-attachment: fixed;
+      color: #FCEFFF;
+    }
+	
+	@font-face {
+  font-family: 'MirnaVidovic'; 
+  src: url('html/MirnaVidovic.ttf') format('ttf'),
+       url('html/MirnaVidovic.ttf') format('ttf');
+  font-weight: normal;
+  font-style: normal;
+}
+
+	h1 {
+	font-family: MirnaVidovic;
+	font-size:100px;
+	}
+	
+	 h2, h3 {
+	font-family: Arial;
+	}
+
+    /* Dark overlay */
+    body::before {
+      content: "";
+      position: absolute;
+      inset: 0;
+      background: rgba(0, 0, 0, 0.5);
+      z-index: 0;
+    }
+
+    /* tekst ide preko */
+    body > * {
+      position: relative;
+      z-index: 1;
+    }
+
+    /* Header */
+    h1 {
+      text-align: center;
+      padding-top: 100px;
+      color: white;
+    }
+
+    /* Link */
+    a {
+      color: #86EDFF;
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+	<h1>Mirna Vidović</h1>
+	<h2>Bok!</h2>
+	<p>Ja sam Mirna! <br>
+		Prva sam godina <i>Grafičkog fakulteta u Zagrebu</i>. Sreća po tebe, 
+		jer inače ne bi imao gdje ovo pročitati.</p>
+	<h3>Zanimljive činjenice o meni:</h3>
+		<ol>
+			<li>treniram rukomet 10 godina</li>
+			<li>volim Marvel filmove</li>
+			<li>igram futsal</li>
+		</ol>
+	<h3>Manje zanimljive činjenice o meni:</h3>
+		<ul>
+			<li>operirala sam koljeno</li>
+			<li>imam epilepsiju</li>
+			<li>ne volim peršun</li>
+		</ul>
+	<p>Iskustvo na fakultetu do sada je bolje nego ikada očekivano.
+	   Prijavila sam 10 međusobno nepovezanih fakulteta i iznimno mi je drago što sam upravo na ovom
+	   završila. <br>
+	   Kako se akademska godina približava kraju, izdvojila bih Tehnologijadu kao
+	   najpamtljiviji događaj godine. <br> Na njihovom 
+	   <a href="https://www.instagram.com/tehnologijada/">instagram profilu</a> ima više 
+	   informacija za one koje zanima više. Ja ću samo naglasiti da je ženska
+	   futsal ekipa odnijela zlato već drugu godinu za redom :)<br> <br>
+	   Tehnologijada: <a href="linkgalerija.html">GALERIJA</a>, 
+	   <a href="linkfinale.html">FINALE</a>, 
+	   <a href="linkpjesma.html">HIMNA GRAFIČKOG FAKULTETA</a></p> 	   
+	   
+</body>
+</html>
