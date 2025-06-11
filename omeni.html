@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>O meni</title>
+	 <style>
+	 html, body {
+	  min-height: 100vh;
+      background-image: 
+ linear-gradient(to bottom, rgba(0, 0, 0, 0) 40%, black 100%),
+    url('slike/matura_pano.jpg');
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center;
+	  background-attachment: fixed;
+      color: #FCEFFF;
+    }
+	 
+	 
+		 /* Header */
+    h1 {
+      text-align: center;
+      padding-top: 100px;
+      color: white;
+    }
+	
+	 h2, h3 {
+	font-family: Arial;
+	}
+
+    /* Dark overlay */
+    body::before {
+      content: "";
+      position: absolute;
+      inset: 0;
+      background: rgba(0, 0, 0, 0.5);
+      z-index: 0;
+    }
+
+    /* tekst ide preko */
+    body > * {
+      position: relative;
+      z-index: 1;
+    }
+	 </style>
+	
+</head>
+<body>
+	<p>Natrag na <a href="index.html">početnu stranicu</a> </p>
+	
+	<h1>O MENI</h1> <br>
+
+</body>
+</html>
