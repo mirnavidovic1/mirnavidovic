@@ -4,14 +4,14 @@
 	<title>O meni</title>
 	 <style>
 	 html, body {
-	  min-height: 300vh;
+	  /*min-height: 300vh;*/
 	  height: auto;
       background-image: 
 	  linear-gradient(to bottom, rgba(0, 0, 0, 0) 40%, black 100%),
       url('slike/matura_pano.jpg');
       background-repeat: no-repeat;
       background-size: cover;
-      background-position: top center;
+      background-position: center -400px;
 	  background-attachment: scroll;
       color: #FCEFFF;
     }
@@ -32,7 +32,7 @@
     /* Dark overlay */
     body::before {
       content: "";
-      position: absolute;
+      position: fixed;
       inset: 0;
       background: rgba(0, 0, 0, 0.5);
       z-index: 0;
@@ -43,13 +43,135 @@
       position: relative;
       z-index: 1;
     }
-	 </style>
 	
+
+
+	h1 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size:100px;
+	}
+	
+	 h2, h3 {
+	font-family: Arial;
+	}
+
+
+    /* Header */
+    h1 {
+      text-align: center;
+      padding-top: 100px;
+      color: white;
+    }
+
+    /* Link */
+    a {
+      color: #86EDFF;
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+	
+	.prvi_zadatak {
+  width: 100%;
+  text-align: justify;
+  padding: 0 10px;
+}
+
+.navigacija {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+}
+
+.navigacija ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  gap: 20px;
+}
+
+.navigacija li a {
+  text-decoration: none;
+  color: white;
+  font-family: Arial, sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+.navigacija li a:hover {
+  color: #86EDFF;
+}
+
+  </style>
 </head>
 <body>
-	<p>Natrag na <a href="index.html">početnu stranicu</a> </p>
+
+	<header>
+    <nav class="navigacija">
+      <ul>
+        <li><a href="index.html">POČETNA</a></li>
+        <li><a href="omeni.html">O MENI</a></li>
+        <li><a href="vjezbe.html">VJEŽBE</a></li>
+        <li><a href="video.html">VIDEO REKLAMA</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  
+
+</body>
+</html>
+
+   </style>
+<body>
+	
 	
 	<h1>O MENI</h1> <br>
+
+  <p>Bok, još jednom! 
+    Ja sam Mirna Vidović. Dolazim iz Kiseljaka (blizu Sarajeva, za one koji ne znaju) - porijekla Senzacije, Sky Cole i Sarajevskog Kiseljaka.
+    Imam stariju sestru koja je u Zagrebu završila FER i trenutno radi, jako smo bliske. <br> <br>
+    <img src="slike/evaa.jpeg" alt="moja sestra i ja" style="width: 300px; vertical-align:middle;"> <br> <br> 
+    Iako volim Kiseljak jer sam tamo završila osnovnu školu, gimnaziju i počela se baviti onime što mi daje najviše mira - rukometom, mala sredina nije za mene.
+    Jako sam ekspresivna i emotivna osoba. Volim upoznavati nove ljude i iskorištavati sve prilike koje se nude. <br> <br>
+    
+    Baš kao i ja, fakultet je jako svestran... Dok kolege s FER-a i TVZ-a koje volim i poštujem, muku muče sa 5 srodnih kolegija, ja uživam u mogućnostima 
+    koje nude tehnike fotografiranja, ali s druge strane matematika, ali s treće strane 3D programiranje, ali i rad u Illustratoru, Photoshopu, pisanje html-a...
+    A još uvijek sam prva godina! 
+    Ipak, pogledam unazad 8 mjeseci i shvatim kako sam donijela pravu odluku. <br> <br> 
+    
+    Ono što me pored fakulteta definira je apsolutno rukomet. <br>
+    Svaki trening, svaku utakmicu, opsjedne me adrenalin, ali u isto vrijeme osjećam najveći unutarnji mir. Svjesna sam da zvuči zbunjujuće, ali drugačije
+    taj osjećaj ne mogu opisati. Velik sam overthinker i u tom trenutku, na terenu, kada čujem samo struganje patika i odskoke lopte, ne postoji ništa drugo
+    i u mojoj glavi je potpuna tišina. Rukomet je moja meditacija. <br>
+    Pored toga, dobar je način zabave. Zato mi je bila velika čast volontirati na Svjetskom prvenstvu čiji je domaćin djelomično upravo bila Hrvatska.
+    Upravo u vrijeme kada sam ja upisala fakultet u Zagrebu, gdje se igralo prvo polufinale. Ovim trenucima na linku sam svjedočila uživo
+    i jedno je od najboljih iskustava moga života. <br> <br> Najbolji trenutak bio je završni gol u  
+	   <a target="a_blank" href="https://www.youtube.com/watch?v=VGtrB7S37wU">utakmici protiv Mađarske</a>.
+
+    <img src="slike/rukomet 1.jpg" alt="Kuzma" style="width: 300px; vertical-align:middle;"> <br> <br> 
+    <img src="slike/rukomet2.jpg" alt="Mandic" style="width: 300px; vertical-align:middle;"> <br> <br> 
+    <img src="slike/rukomet 3.jpg" alt="Karacic" style="width: 300px; vertical-align:middle;"> <br> <br> 
+    
+
+    <!-- <div class="slike-red">
+  <img src="slike/rukomet 1.jpg" alt="Kuzma">
+  <img src="slike/rukomet2.jpg" alt="Mandic">
+  <img src="slike/rukomet 3.jpg" alt="Karacic">
+</div> -->
+
+
+     
+    Volim gledati serije i na taj način ubijati vrijeme, kada ga imam. <br> <br>
+    Neke od meni dražih i koje definitivno preporučujem svima su: <br>
+
+    Ima svih glumaca, žanrova i slično, smatram da svatko može nešto pronaći za sebe, a isto vrijedi i za glazbu.
+  </p>
+
 
 </body>
 </html>

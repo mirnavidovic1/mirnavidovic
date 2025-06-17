@@ -140,9 +140,48 @@
   text-align: justify;
 }
 
+.navigacija {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+}
+
+.navigacija ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  gap: 20px;
+}
+
+.navigacija li a {
+  text-decoration: none;
+  color: white;
+  font-family: Arial, sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+.navigacija li a:hover {
+  color: #86EDFF;
+}
+
   </style>
 </head>
 <body>
+
+	<header>
+    <nav class="navigacija">
+      <ul>
+        <li><a href="index.html">POČETNA</a></li>
+        <li><a href="omeni.html">O MENI</a></li>
+        <li><a href="vjezbe.html">VJEŽBE</a></li>
+        <li><a href="video.html">VIDEO REKLAMA</a></li>
+      </ul>
+    </nav>
+  </header>
+
 
 	<h1>Digitalni multimedij 1 - VJEŽBE</h1>
 
